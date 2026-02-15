@@ -8,8 +8,8 @@ public class StoreApplication {
 
     public static void main(String[] args) {
       var context =  SpringApplication.run(StoreApplication.class, args);
-      var notificationManager = context.getBean(NotificationManager.class);
-      notificationManager.sendNotification();
+      var orderService = context.getBean(OrderService.class);
+      orderService.placeOrder();
     }
 
 }
