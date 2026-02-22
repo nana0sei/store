@@ -11,5 +11,5 @@ public class NotificationManager {
         this.notificationService = notificationService;
     }
 
-    public void sendNotification (){notificationService.send("Message sent!");}
+    public void sendNotification (){notificationService.send("Message sent!", "");}
 }
