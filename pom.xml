@@ -52,6 +52,17 @@
             <optional>true</optional>
         </dependency>
 
+        <dependency>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <groupId>org.springframework.boot</groupId>
+        </dependency>
+
+        <dependency>
+            <artifactId>mysql-connector-j</artifactId>
+            <groupId>com.mysql</groupId>
+            <scope>runtime</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
