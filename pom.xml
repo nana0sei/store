@@ -85,7 +85,7 @@
                 <configuration>
                     <url>jdbc:mysql://localhost:3306/store?createDatabaseIfNotExist=true</url>
                     <user>root</user>
-                    <password>na00s3iF</password>
+                    <password>password</password>
                 </configuration>
             </plugin>
             <plugin>
